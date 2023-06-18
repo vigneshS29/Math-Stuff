@@ -1,3 +1,5 @@
+#Author: Vignesh Sathyaseelan (vsathyas@purdue.edu)
+
 import os,sys
 import numpy as np
 
