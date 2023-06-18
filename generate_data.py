@@ -3,8 +3,9 @@ import numpy as np
 
 def main(argv):
 
+    #FUNCTION WITH RANDOM NOISE    
     f = lambda x : 1.0*np.sin(1*0.7*x) - 2.0*np.cos(1*0.7*x) + 1.0*np.sin(2*0.7*x) + 2.0*np.cos(2*0.7*x) \
-        - 3.0*np.sin(3.0*0.7*x) + 4.0*np.cos(3.0*0.7*x) + np.random.normal(scale=2.0,size = len(x))
+        - 3.0*np.sin(3.0*0.7*x) + 4.0*np.cos(3.0*0.7*x) + np.random.normal(scale=2.0,size = len(x)) 
 
     # Generate f dataset
     x = np.arange(0,10.01,0.05)
