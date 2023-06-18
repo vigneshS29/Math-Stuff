@@ -14,9 +14,9 @@ def main(argv):
 
     return
 
-def write_data(file_name,x,y):
+def write_data(file_name,x,y,xlabel='x-data',ylabel='y-data'):
     with open(file_name,'w') as f:
-        f.write("{:<20s} {:<20s}\n".format("t-data","y-data"))        
+        f.write("{:<20s} {:<20s}\n".format(xlabel,ylabel))        
         for i in range(len(x)):
             f.write("{:< 20.6f} {:< 20.6f}\n".format(x[i],y[i])) 
 
