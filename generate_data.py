@@ -10,12 +10,12 @@ def main(argv):
     x = np.arange(0,10.01,0.05)
     y = f(x)
 
-    write_data(x,y)
+    write_data('data.txt',x,y)
 
     return
 
-def write_data(x,y):
-    with open("data_timeseries.txt",'w') as f:
+def write_data(file_name,x,y):
+    with open(file_name,'w') as f:
         f.write("{:<20s} {:<20s}\n".format("t-data","y-data"))        
         for i in range(len(x)):
             f.write("{:< 20.6f} {:< 20.6f}\n".format(x[i],y[i])) 
