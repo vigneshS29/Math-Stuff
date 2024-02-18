@@ -8,7 +8,7 @@ A collection of Python implementations of core numerical methods for scientific 
 * **Numerical Integration**
 * **Numerical Differentiation**
 * **Ordinary Differential Equations (ODEs)**
-* **Partial Differential Equations (ODEs)**
+* **Partial Differential Equations (PDEs)**
 
 **For Students and Researchers**
 
