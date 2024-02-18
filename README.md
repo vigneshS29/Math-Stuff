@@ -4,25 +4,11 @@ A collection of Python implementations of core numerical methods for scientific 
 
 **Methods Implemented**
 
-* **Root Finding**
-    * Bisection Method
-    * Newton-Raphson Method
-    * Secant Method 
-* **Interpolation**
-    * Linear interpolation
-    * Polynomial interpolation (Lagrange, Neville's)
-    * Spline interpolation
+* **Numerical Linear Algebra**
 * **Numerical Integration**
-    * Trapezoidal Rule
-    * Simpson's Rule
-    * Gaussian Quadature
 * **Numerical Differentiation**
-    * Forward difference approximations
-    * Central difference approximations
-    * Richardson extrapolation
 * **Ordinary Differential Equations (ODEs)**
-    * Euler's Method
-    * Runge-Kutta Methods (e.g., RK4)
+* **Partial Differential Equations (ODEs)**
 
 **For Students and Researchers**
 
