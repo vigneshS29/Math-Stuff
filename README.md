@@ -18,3 +18,4 @@ This repository is ideal for those looking to:
 * **Reference Implementations:** Have well-structured examples of numerical algorithms written in Python.
 * **Experiment and Customize:** Extend or modify the provided methods for specific research problems.
 
+![Example](./example.png)
